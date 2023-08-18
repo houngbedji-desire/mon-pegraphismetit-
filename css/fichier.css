@@ -1,0 +1,129 @@
+/* HEADER */
+body{
+    margin: 0%;
+}
+a{
+    color:black;
+    text-decoration:none;
+    border: 50px;
+    margin-left: 20px;
+}
+.header{
+    display:flex;
+    justify-content: space-between;   
+}
+.menu{
+    padding: 40px 0px 50px 50px;
+}
+/* cession mon petit graphisme */
+.arriere-plan{
+    background-image: url(backgroung_image.jpg);
+    height: 500px;
+    text-align: center;
+}
+.arriere-plan p{
+     color:white ;
+     font-size: 30px;
+     margin: 20px;
+}
+ main img{
+    margin-top: 150px;
+    max-width: 200px;
+}
+/* deuxiemme de texte en tete */
+
+.texte p{
+    color: black;
+    text-align: center;
+ }
+     /* cession d'image texte */
+.cession3{
+        display: flex;
+        justify-content: center ;
+        margin: 50px; 
+     }
+.cession3 img{
+        margin-top: 0px;
+        margin-left: 100px;
+
+     }
+.cession3 p {
+        /* flex-wrap: wrap; */
+        text-align: center;
+        color: black;
+     }
+.illustration{
+        max-width: 250px;
+        max-height: 200px;
+        margin-left: 35px ;
+     }
+.graphisme{
+        max-width: 250px;
+        max-height: 200px;
+        margin-right: 80px;
+     }
+.strategie{
+        max-width: 250px;
+        max-height: 200px;
+     }
+.cession3 h2{
+        justify-content: center;
+     }
+.cession3 h2{
+        margin-left: 50px;
+     }
+.illustration p{
+        margin-left: 50px;
+     }
+     /* cession 4 texte */
+     .cristine p{
+        max-width: 500px;
+        max-height: 200px;
+        margin-left: 800px;
+        text-align: center;
+        color: black;
+     }
+     /* footer */
+    .footer{
+        background-color:#5B359D ; 
+    }
+    .footer h4,p,ul{
+        /* text-align: center; */
+        color: white;
+    }
+    .dernier{
+        display: flex; 
+        justify-content: space-around;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        
+    }
+     .footer h4{
+        text-align: center
+     }
+     .footer p{
+        opacity: 0.6;
+     }
+     /* icon-css */
+     .fa{
+        padding: 20px;
+        font-size: 30px; 
+        width: 70px; 
+        text-align: center; 
+        text-decoration: none;  
+        background-color: #5B359D;
+        color: white;
+
+    }
+    
+    
+   
+     
+
+
+
+     
+    
+    
