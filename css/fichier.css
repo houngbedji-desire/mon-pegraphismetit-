@@ -1,19 +1,24 @@
 /* HEADER */
+a,p,h4,ul,li{
+    font-family: 'Montserrat', sans-serif;
+}
 body{
-    margin: 0%;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 a{
     color:black;
     text-decoration:none;
-    border: 50px;
+    border: 40px; 
     margin-left: 20px;
 }
 .header{
     display:flex;
-    justify-content: space-between;   
+    justify-content: space-between;  
+    margin: Opx;
 }
 .menu{
-    padding: 40px 0px 50px 50px;
+    padding: 40px 0px 0px 0px;
 }
 /* cession mon petit graphisme */
 .arriere-plan{
@@ -35,6 +40,7 @@ a{
 .texte p{
     color: black;
     text-align: center;
+    opacity: 0.8;
  }
      /* cession d'image texte */
 .cession3{
@@ -44,13 +50,13 @@ a{
      }
 .cession3 img{
         margin-top: 0px;
-        margin-left: 100px;
+        margin-left: 120px;
 
      }
 .cession3 p {
-        /* flex-wrap: wrap; */
         text-align: center;
         color: black;
+        opacity: 0.9;
      }
 .illustration{
         max-width: 250px;
@@ -58,56 +64,58 @@ a{
         margin-left: 35px ;
      }
 .graphisme{
-        max-width: 250px;
+        max-width: 350px;
         max-height: 200px;
         margin-right: 80px;
      }
 .strategie{
-        max-width: 250px;
+        max-width: 350px;
         max-height: 200px;
      }
 .cession3 h2{
         justify-content: center;
-     }
-.cession3 h2{
-        margin-left: 50px;
+        margin-left: 70px;
      }
 .illustration p{
-        margin-left: 50px;
+        margin-left: 70px;
+        opacity: 0.9;
      }
      /* cession 4 texte */
      .cristine p{
         max-width: 500px;
         max-height: 200px;
-        margin-left: 800px;
+        margin-left: 680px; 
         text-align: center;
         color: black;
+        opacity: 0.8;
+       
      }
      /* footer */
     .footer{
         background-color:#5B359D ; 
     }
     .footer h4,p,ul{
-        /* text-align: center; */
         color: white;
     }
     .dernier{
         display: flex; 
         justify-content: space-around;
     }
-    .logo{
+    .icon{
         display: flex;
         justify-content: center;
         
     }
      .footer h4{
-        text-align: center
-     }
+        text-align: center;
+        padding-top: 30px;
+        margin: 0px;
+        }
      .footer p{
         opacity: 0.6;
      }
      /* icon-css */
-     .fa{
+     .fa-brands{
         padding: 20px;
         font-size: 30px; 
         width: 70px; 
@@ -115,6 +123,7 @@ a{
         text-decoration: none;  
         background-color: #5B359D;
         color: white;
+        opacity: 0.7;
 
     }
     
