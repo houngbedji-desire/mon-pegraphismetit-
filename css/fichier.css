@@ -1,5 +1,5 @@
 /* HEADER */
-a,p,h4,ul,li{
+a,p,h4,ul,li,h3{
     font-family: 'Montserrat', sans-serif;
 }
 body{
@@ -72,9 +72,10 @@ a{
         max-width: 350px;
         max-height: 200px;
      }
-.cession3 h2{
+.cession3 h3{
         justify-content: center;
-        margin-left: 70px;
+        margin-left: 90px;
+        opacity: 0.8;
      }
 .illustration p{
         margin-left: 70px;
@@ -82,12 +83,9 @@ a{
      }
      /* cession 4 texte */
      .cristine p{
-        max-width: 500px;
-        max-height: 200px;
-        margin-left: 680px; 
         text-align: center;
         color: black;
-        opacity: 0.8;
+        opacity: 0.8; 
        
      }
      /* footer */
